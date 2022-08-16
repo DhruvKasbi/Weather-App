@@ -9,7 +9,7 @@ function App() {
   const apikey = process.env.REACT_APP_APIKEY
   const apiid = process.env.REACT_APP_APIID
  
- const url2 = `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apikey}&q=${location}&offset=25`
+ const url2 = `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apikey}&q=${location}&offset=25`
 
 
   const callapi = async (cor) =>{
